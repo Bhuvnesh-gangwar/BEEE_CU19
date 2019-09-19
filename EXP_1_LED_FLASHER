@@ -1,0 +1,25 @@
+EXP1_LED_FLASHER
+
+THEORY:
+Take 1 breadboard, 1 LED, 1 Arduino board and 2 wires. Install the led in breadboard in such a way that they are not connected each other.
+Take 2 wires and connect 1 wire to the ‘n’ terminal of led and another wire to the ‘p’ terminal of led. Now take an Arduino board and 
+connect 'n' terminal wire to the ground in digital pins of Arduino board. Similarly, connect 'p' terminal of wire to any one of the
+digital pins from 1 to 13. By using cable, connect Arduino board to the Computer. After this step verify and upload the code that you 
+have coded.
+
+LEARNING AND OBSERVATIONS:
+After verifying and uploading the code that you have coded we can observe that the led starts glowing and after few milliseconds
+it again turn off.
+
+PROBLEMS AND TROUBLESHOOTING: 
+You should take care whether the board in the Arduino\UNO or not and also selection of port in tools. 
+
+PRECAUTIONS:
+While installing LED in bread board we should take care whether the terminals of LED connected or not. The two terminals should not
+be connected. Install the wires properly in both bread board and Arduino board.
+
+LEARNING OUTCOMES:
+With this experiment we can learn how to blink LED with the help of coding. 
+In this experiment we are not using any battery. 
+Arduino board provide sufficient voltage and current to the bread board and with the help of bread board LED utilize voltage and
+current and it starts glowing.
